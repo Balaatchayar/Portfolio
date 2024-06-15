@@ -9,12 +9,10 @@ function Techstack() {
     <Col xs={4} md={2} className="tech-icons">
       <span>C</span>
     </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -25,10 +23,7 @@ function Techstack() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -37,10 +32,15 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      
+     
+      <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiFirebase />
+        <SiFirebase />
       </Col>
     </Row>
   );

@@ -4,7 +4,6 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
-
 function Home({ updateExpanded }) {
   return (
     <section>
@@ -31,9 +30,7 @@ function Home({ updateExpanded }) {
 
               <Row>
                 <Col>
-                  <Nav className="ml-auto" onClick={() => updateExpanded(false)}>
-                    
-                  </Nav>
+                  <Nav className="ml-auto" onClick={() => updateExpanded(false)} />
                 </Col>
               </Row>
             </Col>
@@ -44,4 +41,5 @@ function Home({ updateExpanded }) {
     </section>
   );
 }
+
 export default Home;
